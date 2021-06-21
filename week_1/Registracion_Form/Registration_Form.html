@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="/process" method="post">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="name" placeholder="Your Name is..">
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="name" placeholder="Your Last Name is ..">
+            </div>
+            <div>
+                <label>Email Adress:</label>
+                <input type="text" name="email" placeholder="Your email...">
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" placeholder="Type in your Password..">
+            </div>
+            <div>
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Type in your Password again">
+            </div>
+            <div>
+                <label>Birthday</label>
+                <input type="date" placeholder="mm/dd/yyyy">
+            </div>
+        </form>
+        <form>
+                <label>Gender Identity</label>
+            <div>
+                <input type="radio" name="M" id="M" value="Male">
+                <label for="M">Male</label>
+
+                <input type="radio" name="F" id="F"   value="Female">
+                <label for="F">Female</label>
+
+                <input type="radio" name="Non" id="Non"   value="Non-binary">
+                <label for="Non">Non-binary</label>
+
+                <input type="radio" name="not to answer" id="not to answer" value="I prefer not to answer">
+                <label for="not to answer">I prefer not to answer</label>
+            </div>
+        </form>
+        <form>
+            <p>A short description about myself: </p>
+            <textarea placeholder="Say something about yourself..."></textarea>
+            <div>
+                <label>Favorite Laguage</label>
+                <select>
+                    
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" name="offers" id="offers" checked>
+                <label for="offers">I would like to recieve email offers!</label>
+            </div>
+            <input type="submit" value="Create Account">
+        </form>
+    </body>
+</html>
