@@ -1,0 +1,35 @@
+form{
+    min-width: 100px;
+    padding: 20px;
+    background-color: gray;
+}
+
+
+
+.search{
+    color: aqua;
+    border: 0.5px solid aqua;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px black;
+    margin: 10px;
+    width: 100px;
+    display: inline-block;
+}
+
+#add{
+    color: greenyellow;
+    border: 1px solid greenyellow;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+input{
+    color: white;
+    border: 1px solid black;
+    box-shadow: 2px 1px 1px black;
+    margin: 10px;
+    display: block;
+}
