@@ -1,0 +1,30 @@
+h1{
+    background-color: black;
+    color: white;
+    text-align: left;
+    text-decoration-style: double;
+    font-style: oblique;
+    font-size: 130px;
+}
+
+span{
+    color: turquoise;
+}
+
+p{
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    text-align: center;
+    font-style: oblique;
+    font-size: 80px;
+    text-decoration-style: wavy;
+}
+
+h2{
+    background-color: teal;
+    font-style: oblique;
+    font-size: 40px;
+    text-align: right;
+    color: plum;
+    text-decoration-line: underline;
+}

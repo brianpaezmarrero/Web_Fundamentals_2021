@@ -7,40 +7,47 @@
     <title>Document</title>
 </head>
 <body>
+    <link rel="stylesheet" href="styling.css">
     <h1>Brian Paez Marrero</h1>
-    <img src="" alt="profile_pic">
+    <img id="Profile_pic" src="profilepic_dribbble.gif" alt="profile_pic">
+    <div>
+        <img id="Git" src="octocat.gif" alt="Git">
+        <a href="https://github.com/brianpaezmarrero">my github</a>
+
+        <img id="Linkedin" src="Linkedin.gif" alt="Linkedin">
+        <a href="https://www.linkedin.com/in/brian-paez-5176b7215?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bi39qPtPOSwKJ8mmP22mJPQ%3D%3D">my linkedin</a>
+
+        <img id="Email" src="Email.gif" alt="Email">
+        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">brianpaezmarrero@gmail.com</a>
+    </div>
     <em><h3>Technologies</h3></em>
     <table>
-        <h1>    
-            <td>
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <th>4</th>
-                <th>5</th>
-            </td>
-        </h1>
-        <tr>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th>4</th>
-            <th>5</th>
+        <td><th>Front-End</th></td>
+        <td><th>Python</th></td>
+        <td><th>JavaScript</th></td>
+        <td><th>Database</th></td>
+        <td><th>Concepts</th></td>
+        <tr class="row1">
+            <td><th>Html5</th></td> 
         </tr>
-        <td>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th>4</th>
-            <th>5</th>
-        </td>
-        <tr>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-            <th>4</th>
-            <th>5</th>
+        <tr class="row2">
+            <td><th>CSS3</th></td>
         </tr>
     </table>
+    <form action="/process" method="GET">
+        <h1>Contact Me</h1>
+        <div>
+            <label for="">Name</label>
+            <input type="text" placeholder="Your Name is...">
+
+            <label for="">Email</label>
+            <input type="text" placeholder="Your Email is...">
+        </div>
+        <div>
+            <label for="">Message</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Send Message">
+    </form>
 </body>
 </html>
