@@ -1,0 +1,30 @@
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-title{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+.nav-links{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+a{
+    text-decoration-line: none;
+}
