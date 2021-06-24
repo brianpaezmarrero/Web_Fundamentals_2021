@@ -1,0 +1,54 @@
+/* *{ */
+    /* padding: 0px; */
+    /* margin: 0px; */
+/* } */
+body{
+    background-color: aqua;
+    padding: 20px 50px;
+    margin: 20px 50px;
+}
+.tab{
+    background-color: white;
+    align-items: center;
+    min-width: auto;
+    min-height: auto;
+    margin: 15px;
+    padding: 15px;
+}
+h1{
+    color: dodgerblue;
+    display: flex;
+    justify-content: flex-start;
+}
+.loc, .conf{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.locat_icon{
+    width: 9px;
+}
+.conf_icon{
+    width: 15px;
+}
+.profile_pic{
+    width: 80px;
+    margin: 10px 10px 0px;
+    padding: 10px 10px 0px;
+}
+tr :nth-of-type(even){
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+p{
+    margin-top: 0px;
+    margin-inline-start: 3px;
+}
+a{
+    margin-left: 10px;
+    text-decoration-line: none;
+}
+.info, .conf_icon, .locat_icon, h1{
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
